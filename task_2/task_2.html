@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Title</title>
+</head>
+<body>
+    <form class="obratnuj-zvonok" autocomplete="off" action='email.php' method='post'>
+        <div class="form-zvonok">
+            <div>
+                <label>ФИО <span>*</span></label>
+                <input type='text' name='username' required>
+            </div>
+            <div>
+                <label>Мобильный телефон<span>*</span></label>
+                <input type='text' name='tel' required>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type='text' name='mail'>
+            </div>
+            <div>
+                <label>Адрес</label>
+                <input type='text' name='adress'>
+            </div>
+            <div>
+                <label>Файл</label>
+                <input type='file' name='file'>
+            </div>
+            <div>
+                <label>Комментарий</label>
+                <textarea name='comments'></textarea>
+            </div>
+            <input class="bot-send-mail" type='submit' value='Послать заявку'>
+        </div>
+    </form>
+</body>
+</html>
